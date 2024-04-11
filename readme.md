@@ -13,7 +13,7 @@ Client-side (browser-side, using Javascript) conversion of [HEIC/HEIF](http://ww
 
 While developing some web-based application that should be able to handle mobile uploads, I've come across a problem where browsers can not display certain images uploaded from the iPhone, after investigating through the issue, I noticed that that my iPhone was giving a `heic` formatted image.
 
-Currently there are [zero web browsers](https://caniuse.com/#search=heif) that support HEIC photos. Even Apple's latest-greatest version of Safari can't decode HEIC and doesn't recognize the "image/heic" mimetype. A solution that came across my mind is to utilize the benefits of high resolution and low storage of heic images when storing in the server and client-side conversion to JPEG for viewing on the browser.
+Currently there is [only 1 web browser](https://caniuse.com/heif) that supports HEIC photos and only in its latest major version - Safari 17+. A solution that came across my mind is to utilize the benefits of high resolution and low storage of heic images when storing in the server and client-side conversion to JPEG for viewing on the browser.
 
 ### Usage and limitations
 
